@@ -1,0 +1,1 @@
+{{ $event->auth->email }} ({{ $event->auth_type }}) <b>updated</b> this user {{ $event->created_at->diffForHumans() }}

@@ -1,0 +1,1 @@
+{{ $event->auth->name }} ({{ $event->auth_type }}) <b>deleted</b> this role {{ $event->created_at->diffForHumans() }}

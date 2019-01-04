@@ -1,0 +1,1 @@
+@include ("activities.types.{$event->name}")
